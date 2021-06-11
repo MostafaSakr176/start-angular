@@ -1,0 +1,39 @@
+.portfolio{
+    padding: 180px 0 100px;
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+.line{
+    width: 25%;
+    height: 5px;
+    background-color: #212529;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.portfolio-item{
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.portfolio-item img{
+    border-radius: 15px;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #20c997;
+    opacity: 0;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+.portfolio-item:hover .layer{
+    opacity: 0.7;
+}

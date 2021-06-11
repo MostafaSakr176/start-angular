@@ -1,0 +1,29 @@
+.navbar{
+    padding: 20px 0;
+    background-color: #2c3e50 !important;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-toggler{
+    background-color: #1abc9c ;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s;
+}
+.navbar-nav li:hover a{
+    color: #1abc9c;
+}

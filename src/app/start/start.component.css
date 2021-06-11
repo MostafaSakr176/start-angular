@@ -1,0 +1,20 @@
+.start{
+    padding: 170px 0;
+    background-color: #1abc9c;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.line{
+    width: 30%;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+h4{
+    color: white;
+    font-size: 30px;
+}
